@@ -66,7 +66,9 @@ aws s3api create-bucket --bucket kops-abhi-storage --region us-east-1
 ```
 
      ### (option2), For creating S3 bucket in other region except us-east-1
+```
      aws s3api create-bucket --bucket kops-reyman-storage --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1
+```  
 
 ### Create the cluster 
 
